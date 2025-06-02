@@ -90,7 +90,9 @@ nohup bash ./examples/grpo_trainer/run_llasa_tts_grpo.sh > verl_grpo_1b.log 2>&1
 
 ### Results
 
+<div align="center">
 <img src="./misc/grpo_results.png" alt="results" width="70%">
+</div>
 
 We performed continual training of a Korean TTS model starting from the [LLASA-1B](https://huggingface.co/HKUSTAudio/Llasa-1B) checkpoint and evaluated its performance using our internal dataset.
 
