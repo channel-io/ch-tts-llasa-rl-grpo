@@ -1,12 +1,12 @@
 # markdown suport
-recommonmark
+recommonmark==0.7.1
 # markdown table suport
-sphinx-markdown-tables
+sphinx-markdown-tables==0.0.17
 
 # theme default rtd
 
 # crate-docs-theme
-sphinx-rtd-theme
+sphinx-rtd-theme==3.0.0
 
 # pin tokenizers version to avoid env_logger version req
 tokenizers==0.19.1
