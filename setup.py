@@ -24,32 +24,32 @@ with open(os.path.join(version_folder, "verl/version/version")) as f:
     __version__ = f.read().strip()
 
 install_requires = [
-    "accelerate",
-    "codetiming",
-    "datasets",
-    "dill",
-    "hydra-core",
-    "numpy",
-    "pandas",
-    "peft",
-    "pyarrow>=19.0.0",
-    "pybind11",
-    "pylatexenc",
-    "ray[default]>=2.41.0",
-    "torchdata",
-    "tensordict<=0.6.2",
-    "transformers",
-    "wandb",
-    "packaging>=20.0",
+    "accelerate==1.0.1",
+    "codetiming==1.4.0",
+    "datasets==2.20.0",
+    "dill==0.3.8",
+    "hydra-core==1.3.2",
+    "numpy==1.26.4",
+    "pandas==2.2.2",
+    "peft==0.14.0",
+    "pyarrow==19.0.0",
+    "pybind11==2.13.6",
+    "pylatexenc==2.10",
+    "ray[default]==2.41.0",
+    "torchdata==0.11.0",
+    "tensordict==0.6.2",
+    "transformers==4.51.0",
+    "wandb==0.18.7",
+    "packaging==24.1",
 ]
 
-TEST_REQUIRES = ["pytest", "pre-commit", "py-spy"]
-PRIME_REQUIRES = ["pyext"]
-GEO_REQUIRES = ["mathruler"]
-GPU_REQUIRES = ["liger-kernel", "flash-attn"]
-MATH_REQUIRES = ["math-verify"]  # Add math-verify as an optional dependency
-VLLM_REQUIRES = ["tensordict<=0.6.2", "vllm<=0.8.5"]
-SGLANG_REQUIRES = ["tensordict<=0.6.2", "sglang[srt,openai]==0.4.6.post4", "torch-memory-saver>=0.0.5", "torch==2.6.0"]
+TEST_REQUIRES = ["pytest==8.3.3", "pre-commit==4.0.1", "py-spy==0.4.0"]
+PRIME_REQUIRES = ["pyext==0.7"]
+GEO_REQUIRES = ["mathruler==0.1.0"]
+GPU_REQUIRES = ["liger-kernel==0.5.4", "flash-attn==2.7.4.post1"]
+MATH_REQUIRES = ["math-verify==0.5.2"]  # Add math-verify as an optional dependency
+VLLM_REQUIRES = ["tensordict==0.6.2", "vllm==0.8.5"]
+SGLANG_REQUIRES = ["tensordict==0.6.2", "sglang[srt,openai]==0.4.6.post4", "torch-memory-saver==0.0.5", "torch==2.6.0"]
 
 extras_require = {
     "test": TEST_REQUIRES,
