@@ -28,7 +28,7 @@ install_requires = [
     "codetiming==1.4.0",
     "datasets==2.20.0",
     "dill==0.3.8",
-    "hydra-core==1.3.2",
+    "hydra-core==1.3.7",
     "numpy==1.26.4",
     "pandas==2.2.2",
     "peft==0.14.0",
